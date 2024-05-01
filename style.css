@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url("6f6305734930db646bf5d48643cb5e00.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-family: "Pinyon Script", cursive;
+    font-size: 80px;
+}
+
+#score{
+    float: right;
+    font-size: 40px;
+}
+
+#timer{
+    float: left;
+    font-size: 40px;
+}
+
+#show_sketch{
+    float: right;
+    background-color: palevioletred;
+}
+
+canvas
+{
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 150px;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+from {box-shadow: 1px 1px 38px grey;}
+to {box-shadow: 1px 1px 38px white;}
+}  
+
+
+
